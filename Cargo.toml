@@ -1,0 +1,23 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "btrees"
+path = "./src/trees.rs"
+
+[[bin]]
+name = "server"
+path = "./src/server.rs"
+
+[[bin]]
+name = "client"
+path = "./src/client.rs"
+
+[[bin]]
+name = "calc"
+path = "./src/calc.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
