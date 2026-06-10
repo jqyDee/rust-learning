@@ -1,5 +1,3 @@
-use std::ops::Add;
-
 use rust_learning::types::tree::avltree::AvlTree;
 
 fn main() {
