@@ -4,8 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
+name = "avltrees"
+path = "./src/avltrees.rs"
+
+[[bin]]
 name = "btrees"
-path = "./src/trees.rs"
+path = "./src/btrees.rs"
 
 [[bin]]
 name = "server"
